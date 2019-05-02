@@ -1,7 +1,5 @@
 FROM debian:stretch-slim
 
-LABEL MAINTAINER="beginor <beginor@qq.com>"
-
 COPY src/bootstrap.sh /usr/bin/
 
 # Install wget, download and install jexus, then cleanup
